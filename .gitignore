@@ -1,3 +1,5 @@
 .venv
-.h5
-.keras
+faq.md
+*.h5
+*.keras
+logs/
