@@ -1,5 +1,13 @@
+## function : shape() 
 
+```python
+import numpy as np
 
+x = np.zeros((28, 28, 1))
+print(x.shape)
+print(x)
+print(x[0])
+```
 
 DNN에서의 레이어 종류
 
@@ -22,12 +30,8 @@ padding='same' --> zero padding
 
 
 
-shape 함수 관련 정리해~~
-```python
-import numpy as np
+Conv2D에서 stride의 기본 값은 (1,1), padding의 기본값은 valid / same은 제로패딩
+MaxPooling2D에서 stride의 기본 값은 pool_size, padding의 기본값은 valid
 
-x = np.zeros((28, 28, 1))
-print(x.shape)
-print(x)
-print(x[0])
-```
+conv2D 같은 합성곱 레이어는 각 위치에서 가중합(곱+합) 연산 후 bias 추가 --> 활성화 함수 적용
+풀링 레이너느 가중치 없고 최댓값 또는 평균값 ㅇㅇ
