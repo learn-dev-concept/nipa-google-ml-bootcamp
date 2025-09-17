@@ -3,3 +3,5 @@ faq.md
 *.h5
 *.keras
 logs/
+datasets/
+*.DS_Store
