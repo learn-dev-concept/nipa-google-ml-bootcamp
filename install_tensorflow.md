@@ -16,5 +16,6 @@ pip3.11 install "tensorboard==2.17.*"
 pip3.11 install scikit-learn
 pip3.11 install pandas
 pip3.11 install matplotlib
+pip3.11 install gensim
 
 pip install "tensorflow==2.17.*" "tensorflow-metal==1.1.0"
